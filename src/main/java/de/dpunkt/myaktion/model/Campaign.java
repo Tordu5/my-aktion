@@ -6,7 +6,7 @@ public class Campaign {
     private String name;
     private Double targetAmount;
     private Double donationMinimum;
-    private Double amountDontedSoFar;
+    private Double amountDonatedSoFar;
     private Account account;
     private Long id;
     private List<Donation> donations;
@@ -39,12 +39,12 @@ public class Campaign {
         this.donationMinimum = donationMinimum;
     }
 
-    public Double getAmountDontedSoFar() {
-        return amountDontedSoFar;
+    public Double getAmountDonatedSoFar() {
+        return amountDonatedSoFar;
     }
 
-    public void setAmountDontedSoFar(Double amountDontedSoFar) {
-        this.amountDontedSoFar = amountDontedSoFar;
+    public void setAmountDonatedSoFar(Double amountDonatedSoFar) {
+        this.amountDonatedSoFar = amountDonatedSoFar;
     }
 
     public Account getAccount() {
